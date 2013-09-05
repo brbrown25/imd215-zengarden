@@ -8,7 +8,7 @@
 
 /*Basic Setup*/
 body {
-	background:#21401b;
+	background:#000;
 	background-image:;
 	position:relative;
 }	
@@ -17,12 +17,16 @@ h2 {
 	background-color:#9dc22d;
 	font-style:italic;
 	text-align:center;
+	/*margin-left:450px;
+	margin-right:450px;*/
 }
 h3 {
 	color:#FFF;
 	background-color:#9dc22d;
 	font-style:italic;
 	text-align:center;
+	/*margin-left:450px;
+	margin-right:450px;*/	
 
 }
 p {
@@ -35,16 +39,40 @@ header h1{
 	color:#FFF;
 	display:none;
 }
-footer {
+footer a{
+	border:#000 medium solid;
+	padding:3px;
+	text-decoration:none;
+	background-color:#21401b;
+	
 }
 li {
 	color:#FFF;
 	list-style:none;
 	padding:10px 0 10px;
+	background-color:#21401b;
 }
-.sidebar {
+.sidebar{
 	float:left;
 }
 #zen-summary {
 	text-align:center;
+}
+.summary{
+	background-color:#21401b;
+	padding:50px;
+	margin-bottom:25px;
+	border-radius:10px;
+}
+.preamble{
+	background-color:#21401b;
+	padding:50px;
+	margin-bottom:25px;
+	border-radius:10px;
+}
+.supporting{
+	background-color:#21401b;
+	padding:50px;
+	margin-bottom:25px;
+	border-radius:10px;
 }
