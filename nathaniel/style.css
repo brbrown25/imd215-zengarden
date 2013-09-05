@@ -14,8 +14,7 @@ body {
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background-image:
-	url(../../../Dropbox/Nathaniel%20Frazier/CSS_Zen_Garden/assets/bo_play_pattern.png);/*retriving the pattern from the assets folder */ 
+	background-image:url(bo_play_pattern.png);/*retriving the pattern from the assets folder */ 
 	background-repeat: repeat;/*The image will repeat itself in the background*/
 	
 	}
@@ -49,13 +48,15 @@ abbr {
 
 
 /* specific divs */
-.page-wrapper {  
-	padding: 0 175px 0 110px;  
+.page-wrapper {
+	background-image:url(design_comp_css_zen_garden_4.png);  
+	/*padding: 0 175px 0 110px;*/  
 	margin: 0px auto; 
-	position: relative;
-	border: solid thick #FFF;
-	background: #090;
-	width:456px;
+	position:relative;
+	background-repeat:no-repeat;
+	/*border: solid thick #FFF;
+	background: #090;*/
+	width:921px;
 	}
 
 .intro { 
@@ -104,12 +105,21 @@ header {
 	}
 
 .preamble {
+	width:448px;
+	border-left:solid thick #fff;
+	border-right:solid thick #fff;
+	border-top:solid thick #fff;
 	clear: right; 
 	padding: 0px 10px 0 10px;
+	margin-bottom:-15px;
 	}
 .supporting {	
-	padding-left: 10px; 
+	border-left:solid thick #fff;
+	border-right:solid thick #fff;
+	border-bottom:solid thick #fff;/*adding a border */
+	padding: 10px; /**/
 	margin-bottom: 40px;
+	width:448px;
 	}
 
 footer { 
