@@ -12,12 +12,18 @@ body {
 	background-image:;
 	position:relative;
 }	
-h2 {color:#FFF;
-background-color:#9dc22d;
+h2 {
+	color:#FFF;
+	background-color:#9dc22d;
+	font-style:italic;
+	text-align:center;
 }
 h3 {
 	color:#FFF;
 	background-color:#9dc22d;
+	font-style:italic;
+	text-align:center;
+
 }
 p {
 	color:#FFF;
@@ -27,13 +33,18 @@ a {
 }
 header h1{
 	color:#FFF;
+	display:none;
 }
 footer {
 }
 li {
 	color:#FFF;
 	list-style:none;
+	padding:10px 0 10px;
 }
 .sidebar {
 	float:left;
+}
+#zen-summary {
+	text-align:center;
 }
