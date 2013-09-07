@@ -49,19 +49,18 @@ abbr {
 
 /* specific divs */
 .page-wrapper {
-	background-image:url(design_comp_css_zen_garden_4.png);  
+	background-image:url(design_comp_css_zen_garden_BG.png);  
 	/*padding: 0 175px 0 110px;*/  
 	margin: 0px auto; 
 	position:relative;
-	background-repeat:no-repeat;
+	background-repeat:repeat-y;
 	/*border: solid thick #FFF;
 	background: #090;*/
-	width:921px;
+	width:780px;
 	}
 
-.intro { 
-	min-width: 470px;
-	width: 100%;
+.intro {
+	margin-bottom:-12px;
 	}
 
 header h1 { 
@@ -106,14 +105,18 @@ header {
 
 .preamble {
 	width:448px;
+	background-image:url(transparent_green.png);
+	background-repeat:no-repeat;
 	border-left:solid thick #fff;
 	border-right:solid thick #fff;
 	border-top:solid thick #fff;
 	clear: right; 
 	padding: 0px 10px 0 10px;
-	margin-bottom:-15px;
+	margin-bottom:-15px auto;
 	}
-.supporting {	
+.supporting {
+	background-image:url(transparent_green.png);
+	background-repeat:no-repeat;
 	border-left:solid thick #fff;
 	border-right:solid thick #fff;
 	border-bottom:solid thick #fff;/*adding a border */
@@ -132,13 +135,11 @@ footer a:link, footer a:visited {
 .sidebar {
 	
 	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
+	position:relative;
+}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
+	/*background: transparent url(paper-bg.jpg) top left repeat-y; */
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
