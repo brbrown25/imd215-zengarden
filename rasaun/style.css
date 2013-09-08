@@ -9,7 +9,7 @@
 /*Basic Setup*/
 body {
 	background:#000;
-	background-image:;
+	background-image:url(Water-Lily-Pink-1600x900.jpg);
 	position:relative;
 }	
 h2 {
@@ -38,6 +38,10 @@ a {
 header h1{
 	color:#FFF;
 	display:none;
+	background-image:url(zengardenBanner.jpg);
+}
+#zen-intro{
+	background-image:url(zengardenBanner.jpg);	
 }
 footer a{
 	border:#000 medium solid;
