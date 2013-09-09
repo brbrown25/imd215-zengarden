@@ -132,8 +132,11 @@
 <div class="extra6" role="presentation"></div>
 <script>
   $(document).ready(function(){
-      var list = "<select><option rel='rasuan'>Rasaun</option><option rel='sterling'>Sterling</option><option rel='kelvin'>Kelvin</option><option rel='alex'>Alex</option><option rel='nathaniel'>Nathaniel</option></select>";
+	  //store the markup of options in a variable
+      var list = "<select><option rel='http://csszengarden.com/214/214.css?v=8may2013'>Select A Style</option><option rel='rasaun'>Rasaun</option><option rel='sterling'>Sterling</option><option rel='kelvin'>Kelvin</option><option rel='alexandra'>Alex</option><option rel='nathaniel'>Nathaniel</option></select>";
+	  //add the markup to the body
       $("body").prepend(list);
+	  //when an option is selected from the dropdown, apply that style sheet
       $("select").change(function(){
 		  var newStyle = $("option:selected").attr('rel')+"/style.css";
 		  //console.log("new link is "+newStyle);
