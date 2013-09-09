@@ -1,9 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <title>CSS Zen Garden: The Beauty in CSS Design</title>
-<link rel="stylesheet" media="screen" href="style.css">
+<link id="global" rel="stylesheet" media="screen" href="style.css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="YourNameHere">
@@ -130,5 +130,17 @@
 <div class="extra4" role="presentation"></div>
 <div class="extra5" role="presentation"></div>
 <div class="extra6" role="presentation"></div>
+<script>
+  $(document).ready(function(){
+      var list = "<select><option rel='rasuan'>Rasaun</option><option rel='sterling'>Sterling</option><option rel='kelvin'>Kelvin</option><option rel='alex'>Alex</option><option rel='nathaniel'>Nathaniel</option></select>";
+      $("body").prepend(list);
+      $("select").change(function(){
+		  var newStyle = $("option:selected").attr('rel')+"/style.css";
+		  //console.log("new link is "+newStyle);
+          $("link#global").attr("href",newStyle);
+          return false;
+      });
+  });
+</script>
 </body>
 </html>
