@@ -11,9 +11,9 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
+	font: 90% verdana;
+	line-height: 1.65;/*adjusting the tracking of the paragraph*/
+	color: #FFF; /**/
 	background-image:url(bo_play_pattern.png);/*retriving the pattern from the assets folder */ 
 	background-repeat: repeat;/*The image will repeat itself in the background*/
 	
@@ -23,10 +23,10 @@ p {
 	text-align: justify;
 	}
 h3 { 
-	font: italic normal 1.4em verdana, sans-serif;
+	font: italic bold 1.5em verdana;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #7D775C;
+	color: #fff;
 	}
 a:link { 
 	font-weight: bold; 
@@ -58,13 +58,12 @@ abbr {
 	background: #090;*/
 	width:810px;
 	}
-
+	
 .intro {
-	margin:8px 279px -12px;
+	margin:8px 279px -15px;/*find out how to mod this code to work with chrome*/
 	}
 
 header h1 { 
-	background: transparent url(h1.gif) no-repeat top left;
 	margin-top: 10px;
 	display: block;
 	width: 219px;
@@ -75,8 +74,7 @@ header h1 {
 	white-space: nowrap;
 	overflow: hidden;
 	}
-header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
+header h2 {  
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
@@ -130,20 +128,23 @@ header {
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
-	}
+	}*/
 
 .sidebar {
-	
-	margin-left: 600px; 
-	position:relative;
+	background-image:url(transparent_green.png);
+	background-repeat:repeat;
+	border:solid thick #fff;/*adding a border */
+	width:222px;
+	float:left;
+	position:reative;
+	margin: -2407px 0px 0px 35px;
 }
 .sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}*/
+	font: 14px verdana, sans-serif; 
+	padding: 5px; 
+	margin: 5px; 
+	width: 192px; 
+	}
 /*.sidebar h3.select { 
 	background: transparent url(h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
