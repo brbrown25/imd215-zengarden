@@ -60,7 +60,7 @@ abbr {
 	}
 
 .intro {
-	margin-bottom:-12px;
+	margin:8px 279px -12px;
 	}
 
 header h1 { 
@@ -111,21 +111,21 @@ header {
 	border-right:solid thick #fff;
 	border-top:solid thick #fff;
 	clear: right; 
-	/*padding: 0px 10px 0 10px;*/
+	padding: 0px 10px 0 10px;
 	margin-bottom:-15px auto;
 	}
 .supporting {
 	background-image:url(transparent_green.png);
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 	border-left:solid thick #fff;
 	border-right:solid thick #fff;
 	border-bottom:solid thick #fff;/*adding a border */
-	padding: 10px; /**/
-	margin-bottom: 40px;
+	padding: 10px; 
+	margin:8px 279px -12px;
 	width:448px;
 	}
 
-footer { 
+/*footer { 
 	text-align: center; 
 	}
 footer a:link, footer a:visited { 
@@ -139,12 +139,12 @@ footer a:link, footer a:visited {
 }
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
-	/*background: transparent url(paper-bg.jpg) top left repeat-y; */
+	background: transparent url(paper-bg.jpg) top left repeat-y; 
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
-	}
-.sidebar h3.select { 
+	}*/
+/*.sidebar h3.select { 
 	background: transparent url(h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
 	width: 97px; 
