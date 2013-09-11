@@ -63,7 +63,7 @@ abbr {
 	margin:8px 279px -15px;/*find out how to mod this code to work with chrome*/
 	}
 
-header h1 { 
+/*header h1 { 
 	margin-top: 10px;
 	display: block;
 	width: 219px;
@@ -88,7 +88,7 @@ header h2 {
 header {
 	padding-top: 20px;
 	height: 87px;
-}
+}*/
 
 .summary {
 	clear: both; 
@@ -109,7 +109,7 @@ header {
 	border-right:solid thick #fff;
 	border-top:solid thick #fff;
 	clear: right; 
-	padding: 0px 10px 0 10px;
+	padding: 0px 10px 0px 10px;
 	margin-bottom:-15px auto;
 	}
 .supporting {
@@ -135,9 +135,9 @@ footer a:link, footer a:visited {
 	background-repeat:repeat;
 	border:solid thick #fff;/*adding a border */
 	width:222px;
-	float:left;
+	/*float:left;*/
 	position:reative;
-	margin: -2407px 0px 0px 35px;
+margin: -2555px 0px 0px 35px;
 }
 .sidebar .wrapper { 
 	font: 14px verdana, sans-serif; 
