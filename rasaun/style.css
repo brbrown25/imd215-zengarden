@@ -79,7 +79,11 @@ header h1{
 	text-decoration:underline;
 	padding:5px;
 }
-.sidebar.select
+.sidebar.archives{
+	border-radius:10px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
 .sidebar h3.archives{
 	text-decoration:underline;
 	padding:5px;
@@ -116,7 +120,8 @@ text-decoration:none;
 	margin-bottom:25px;
 	margin-left:500px;
 	border-radius:10px;
-	opacity:0.6;
+	opacity:0.8;
+	filter:alpha(opacity=80);
 	}
 .explanation{
 	background-color:#21401b;
@@ -124,28 +129,32 @@ text-decoration:none;
 	margin-bottom:25px;
 	margin-left:500px;
 	border-radius:10px;
-	opacity:0.6;
+	opacity:0.8;
+	filter:alpha(opacity=80);
 }
 .participation{
 	background-color:#21401b;
 	padding:20px 30px;
 	margin-bottom:25px;
 	border-radius:10px;
-	opacity:0.6;
+	opacity:0.8;
+	filter:alpha(opacity=80);
 }
 .benefits{
 	background-color:#21401b;
 	padding:20px 30px;
 	margin-bottom:25px;
 	border-radius:10px;
-	opacity:0.6;
+	opacity:0.8;
+	filter:alpha(opacity=80);
 }
 .requirements{
 	background-color:#21401b;
 	padding:20px 30px;
 	margin-bottom:25px;
 	border-radius:10px;
-	opacity:0.6;
+	opacity:0.8;
+	filter:alpha(opacity=80);
 }
 
 /*Footer*/
