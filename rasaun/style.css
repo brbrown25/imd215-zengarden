@@ -37,12 +37,6 @@ p {
 a {
 	color:#b44c75;
 }
-li {
-	color:#FFF;
-	list-style:none;
-	padding:10px 0 10px;
-	background-color:#21401b;
-}
 
 /*Banner and H1 setup*/
 header{
@@ -61,36 +55,47 @@ header h1{
 }
 
 /*Vertical Navigation setup*/
+li {
+	color:#FFF;
+	list-style:none;
+	padding:7px;
+}
 .sidebar{
-	/*display:inline-block;
-	position:absolute;
-	top:240px; 
-	right:650px;
-	padding-right:30px;*/
 	position:absolute;
 	top:179px;
-	width:207px;
+	width:300px;
 }
-.sidebar .wrapper { 
-	padding: 10px;  
-	width: 360px; 
+.sidebar.wrapper {  
+	width: 360px;
 	}
+.design-selection{
+	background-color:#21401b;
+	border-radius:10px;
+}
+.design-archives{
+	background-color:#21401b;
+}
+.zen-resources{
+	background-color:#21401b;
+	border-radius:10px;
+}
 .sidebar h3.select{
 	text-decoration:underline;
-	padding:5px;
-}
-.sidebar.archives{
-	border-radius:10px;
-	opacity:0.6;
-	filter:alpha(opacity=60);
+	padding:5px 5px 5px 5px;
+	margin-top:50px;
+	display:block;
 }
 .sidebar h3.archives{
 	text-decoration:underline;
 	padding:5px;
+	margin-left:10px;
+	display:block;
 }
 .sidebar h3.resources{
 	text-decoration:underline;
 	padding:5px;
+	margin-left:10px;
+	display:block;
 }
 .sidebar a{
 text-decoration:none;	
