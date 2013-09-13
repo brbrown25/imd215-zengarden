@@ -90,9 +90,8 @@ header {
 	background-repeat:repeat;
 	border:solid thick #fff;
 	margin:0px auto;
-	position: relative;
 	padding: 0px;
-	width: 740px;
+	width: 650px;
 }
 
 .summary {
@@ -101,6 +100,7 @@ header {
 	margin: 10px 0px 0px 293px; 
 	width: 160px; 
 	float: left;
+	position:absolute;
 	}
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
@@ -108,6 +108,7 @@ header {
 	}
 
 .preamble {
+	position:absolute;
 	width:448px;
 	background-image:url(transparent_green.png);
 	background-repeat:repeat;
@@ -116,16 +117,17 @@ header {
 	border-top:solid thick #fff;
 /*	clear: right; */
 	padding: 0px 10px 0 10px;
-	margin: 9px 279px  8px;
+	margin: 9px 279px  9px;
 	}
 .supporting {
+	position:absolute;
 	background-image:url(transparent_green.png);
 	background-repeat:repeat;
 	border-left:solid thick #fff;
 	border-right:solid thick #fff;
 	border-bottom:solid thick #fff;/*adding a border */
 	padding: 10px; 
-	margin:-14px  279px -12px;
+	margin:344px  279px 12px;
 	width:448px;
 	}
 
@@ -137,13 +139,12 @@ footer a:link, footer a:visited {
 	}*/
 
 .sidebar {
-/*	background-image:url(transparent_green.png);
+background-image:url(transparent_green.png);
 	background-repeat:repeat;
 	border:solid thick #fff;/*adding a border */
-	/*width:222px;
-	float:left;
+	width:192px;
 	position:relative;
-	margin: -2405px 0px 0px 35px;*/
+	margin: 8px 0px 0px 66px;
 }
 /*.sidebar .wrapper { 
 	font:  14px verdana, sans-serif; 
@@ -160,7 +161,7 @@ footer a:link, footer a:visited {
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	}
+	}*/
 .sidebar h3.archives { 
 	background: transparent url(h5.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
