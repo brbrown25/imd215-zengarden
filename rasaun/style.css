@@ -6,217 +6,295 @@
 
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
+/*WaterFlower by: Rasaun McMillan*/
+/*CSS Design copyright 2013, Rasaun McMillan*/
+
+
+
 /*Basic Setup*/
 body {
-	background-image:url(pink_lily.jpg);
-	background-size:1350px 3000px;
-	position:relative;
-	background-repeat:no-repeat;
-	margin:0 auto;
-	height:600px;
-	width:1000px;
-	background-color:#000;
-	overflow-x:hidden;
-}	
+	background-image: url(pink_lily.jpg);
+	background-size: 1350px 3000px;
+	position: relative;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	height: 600px;
+	width: 1000px;
+	background-color: #000;
+	overflow-x: hidden;
+}
 h2 {
-	display:none;
+	display: none;
 }
 h3 {
-	color:#FFF;
-	background-color:#9dc22d;
-	font-style:italic;
-	text-align:center;
-	margin:0 auto;
-	font-family:Lucida;
-	font-variant:small-caps;
-	font-size:24px;
+	color: #FFF;
+	background-color: #9dc22d;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	font-family: Lucida;
+	font-variant: small-caps;
+	font-size: 24px;
 }
 p {
-	color:#FFF;
-	font:Arial, Helvetica, sans-serif;
-	font-style:normal;
-	font-family:Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
 }
-a {
-	color:#b44c75;
+a:link {
+	color: #b44c75;
+	text-decoration:none;
 }
-
+a:visited{
+	color: #b44c75;	
+}
+a:hover {
+	color:#F00;
+}
 /*Banner and H1 setup*/
-header{
-	margin-bottom:220px;
+header {
+	margin: 0 0 250px;
 }
-header h1{
-	position:relative;
-	font-size:1px;
+header h1 {
+	position: relative;
+	font-size: 1px;
 }
-#zen-intro{
-	background-image:url(zengardenBanner.jpg);
-	background-repeat:no-repeat;
-	position:relative;
-	display:block;
-	background-size:1000px, auto;
+#zen-intro {
+	background-image: url(zengardenBanner.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	display: block;
+	background-size: 1000px, auto;
+	margin: 0 0 50px;
 }
-@font-face{
+@font-face {
 	font-family: 'Lucida';
-	src:url('LCALLIG.TTF');
+	src: url('LCALLIG.TTF');
 }
-
 /*Vertical Navigation setup*/
 li {
 	color: #FFF;
 	list-style: none;
-	padding: 7px;
+	padding: 3px 5px;
 }
-.sidebar{
+.sidebar {
 	position: absolute;
 	top: 179px;
 	width: 300px;
 }
-.sidebar.wrapper {  
+.sidebar.wrapper {
 	width: 360px;
-	}
-.design-selection{
+}
+.design-selection {
 	border-radius: 10px;
 	background-color: rgba(33,64,27,0.8);
 	background-color: filter:alpha(opacity=80);
 	box-shadow: 8px 8px 8px #000;
+	padding: 20px;
+	margin: 60px 0 0;
 }
-.design-archives{
+.design-archives {
 	background-color: #21401b;
-	padding-top: 10px;
+	padding: 10px 0;
 	box-shadow: 8px 8px 8px #000;
+	margin: 20px 0;
 }
-.zen-resources{
+.zen-resources {
 	background-color: #21401b;
 	border-radius: 10px;
 	background-color: rgba(33,64,27,0.8);
-	background-color: filter:alpha(opacity=80);
-	padding-top: 10px;
+ 	background-color: filter:alpha(opacity=80);
+	padding: 10px 0;
 	box-shadow: 8px 8px 8px #000;
 }
-.sidebar h3.select{
+.sidebar h3.select {
 	text-decoration: underline;
-	padding: 5px;
-	margin-top: 50px;
-	margin-right: 10px;
-	margin-left: 10px;
+	padding: 5px 5px;
 	display: block;
 }
-.sidebar h3.archives{
-	text-decoration:underline;
-	padding:5px;
-	margin-left:10px;
-	margin-right:10px;
-	display:block;
+.sidebar h3.archives {
+	text-decoration: underline;
+	padding: 5px;
+	margin: 0 10px 0 10px;
+	display: block;
 }
-.sidebar h3.resources{
-	text-decoration:underline;
-	padding:5px;
-	margin-left:10px;
-	margin-right:10px;
-	display:block;
+.sidebar h3.resources {
+	text-decoration: underline;
+	padding: 5px;
+	margin: 0 10px 0 10px;
+	display: block;
 }
-.sidebar a{
-text-decoration:none;	
+.sidebar a:link {
+	text-decoration: none;
 }
 /*Wrapper*/
-#page-wrapper{
-	margin:0 auto;
-	width:1000px;
-	position:relative;
+#page-wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
 }
-
 /*Sections and Content*/
 #zen-summary {
-	text-align:center;
-	font:"Times New Roman", Times, serif;
-	font-family:"Times New Roman", Times, serif;
-	padding:10px;
+	text-align: center;
+	font: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif;
+	padding: 10px;
 }
-.summary{
-	font:Arial, Helvetica, sans-serif;
-	margin-left:500px;
-	clear:both;
-	width:500px;
+.summary {
+	font: Arial, Helvetica, sans-serif;
+	margin-left: 500px;
+	clear: both;
+	width: 500px;
 }
 .preamble {
-	background-color:#21401b;
-	padding:20px 30px;
-	margin-bottom:25px;
-	margin-left:500px;
-	border-radius:10px;
-	background-color: rgba(33,64,27,0.8);
-	background-color: filter:alpha(opacity=80);
-	}
-.preamble h3{
-	padding-top:10px;
-	padding-bottom:10px;
+	background-color: #21401b;
+	padding: 20px 30px;
+	margin: 0 0 25px 500px;
+	border-radius: 10px;
+	background-color: rgba(33,64,27,0.6);
+ 	background-color: filter:alpha(opacity=60);
 }
-.explanation{
-	background-color:#21401b;
-	padding:20px 30px;
-	margin-bottom:25px;
-	margin-left:500px;
-	border-radius:10px;
-	background-color: rgba(33,64,27,0.8);
-	background-color: filter:alpha(opacity=80);
+.preamble h3 {
+	padding: 10px 0;
 }
-.explanation h3{
-	padding-top:10px;
-	padding-bottom:10px;
+.explanation {
+	background-color: #21401b;
+	padding: 20px 30px;
+	margin: 0 0 25px 500px;
+	border-radius: 10px;
+	background-color: rgba(33,64,27,0.6);
+ 	background-color: filter:alpha(opacity=60);
 }
-.participation{
-	background-color:#21401b;
-	padding:20px 30px;
-	margin-bottom:25px;
-	border-radius:10px;
-	background-color: rgba(33,64,27,0.8);
-	background-color: filter:alpha(opacity=80);
+.explanation h3 {
+	padding: 10px 0;
 }
-.participation h3{
-	padding-top:10px;
-	padding-bottom:10px;
+.participation {
+	background-color: #21401b;
+	padding: 20px 30px;
+	margin: 0 0 25px;
+	border-radius: 10px;
+	background-color: rgba(33,64,27,0.6);
+ 	background-color:filter:alpha(opacity=60);
 }
-.benefits{
-	background-color:#21401b;
-	padding:20px 30px;
-	margin-bottom:25px;
-	border-radius:10px;
-	background-color: rgba(33,64,27,0.8);
-	background-color: filter:alpha(opacity=80);
+.participation h3 {
+	padding: 10px 0;
 }
-.benefits h3{
-	padding-top:10px;
-	padding-bottom:10px;
+.benefits {
+	background-color: #21401b;
+	padding: 20px 30px;
+	margin: 0 0 25px;
+	border-radius: 10px;
+	background-color: rgba(33,64,27,0.6);
+ 	background-color:filter:alpha(opacity=60);
 }
-.requirements{
-	background-color:#21401b;
-	padding:20px 30px;
-	margin-bottom:25px;
-	border-radius:10px;
-	background-color: rgba(33,64,27,0.8);
-	background-color: filter:alpha(opacity=80);
+.benefits h3 {
+	padding: 10px 0;
 }
-.requirements h3{
-	padding-top:10px;
-	padding-bottom:10px;
+.requirements {
+	background-color: #21401b;
+	padding: 20px 30px;
+	margin: 0 0 25px;
+	border-radius: 10px;
+	background-color: rgba(33,64,27,0.6);
+ 	background-color:filter:alpha(opacity=60);
 }
-
+.requirements h3 {
+	padding: 10px 0;
+}
 /*Footer*/
-footer a{
-	border:#000 medium solid;
-	padding:3px;
-	margin:3px;
-	text-decoration:none;
-	background-color:#21401b;
-	float:right;
-	
+footer a:link {
+	background-color: #21401b;
+	border: #000 medium solid;
+	padding: 3px;
+	margin: 3px;
+	text-decoration: none;
+	float: right;
 }
 footer {
-	display:block;
-	position:relative;
-	margin-top:20px;
-	background-color:#21401b;
-	width:1000px;
-	height:100px;
+	background-color: #21401b;
+	display: block;
+	position: relative;
+	margin: 20px 0;
+	width: 1000px;
+	height: 100px;
+}
+
+
+/*Responsive - Mobile*/
+@media only screen and (min-width : 320px) and (max-width : 480px){
+header {
+	margin-bottom: 100px;
+}
+#zen-intro {
+	background-size: 480px, 200px;
+	margin-bottom:0;
+}
+#page-wrapper {
+	width: 480px;
+}
+body {
+	background-size: cover;
+	background-repeat: repeat;
+}
+footer {
+	margin: 20px 0 0;
+	width: 480px;
+	height: 1000px;
+}
+footer a:link{
+	margin:5px;	
+}
+
+/*Mobile Content*/
+#zen-summary {
+	padding: 20px;
+	margin-left:10px;
+}
+.summary {
+	width: 400px;
+}
+.preamble {
+	margin: 0 0 .1px;
+	width: 400px;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.explanation {
+	margin: 0 0 .1px;
+	width: 400px;
+	border-radius: 0;
+}
+.participation {
+	margin: 0 0 .1px;
+	width: 400px;
+	border-radius: 0;
+}
+.benefits {
+	margin: 0 0 .1px;
+	width: 400px;
+	border-radius: 0;
+}
+.requirements {
+	margin: 0 0 .1px;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	width: 400px;
+
+}
+
+/*Mobile Navigation*/
+.sidebar div.wrapper{
+position: absolute;
+top: 2350px;
+}
+.design-selection {
+	box-shadow:none;
+}
+.design-archives {
+	box-shadow:none;
+}
+.zen-resources {
+	box-shadow:none;
+}
 }
