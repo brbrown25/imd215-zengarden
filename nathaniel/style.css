@@ -70,7 +70,7 @@ abbr {
 /*	min-width: 470px;*/
 /*	width: 100%;*/
 	/*margin-left: 27px;*/
-	margin: 0px 180px 20px 9px;
+	margin: 0px 180px 20px 27px;
 }
 
 /*header h1 { 
@@ -106,8 +106,8 @@ header {
 
 .summary {
 	clear: both; 
-	padding:0px;
-	margin: 20px 20px 20px 10px ; 
+	padding: 32px 1px 0px 10px;
+	margin: 10px  ; 
 	width: 160px; 
 	float: left;
 	/*position:absolute;*/
@@ -234,6 +234,7 @@ footer a:link, footer a:visited {
 	{
 		margin:10px;
 		height:90%;
+		width:947px;
 	}
 	.summary
 	{
@@ -260,7 +261,7 @@ footer a:link, footer a:visited {
 	.sidebar
 	{
 		height: 75%;
-		margin: 10px;
+		margin: 20px 0px 0px 36px;
 		width: 22%;
 		position: relative;
 	}
@@ -274,6 +275,10 @@ footer a:link, footer a:visited {
 }
 @media screen and (max-width:485px)
 {
+	.intro
+	{
+		margin:1px 2px 1px 2px;
+	}
 /*		.page-wrapper:after 
 {
 	content:"";
@@ -283,8 +288,8 @@ footer a:link, footer a:visited {
 }*/
 .summary
 	{
-		margin:75px;
-		/*min-width: 400px;*/
+		margin:80px;
+		min-width: 250px;
 		width: 100%;
 		position: relative;
 	}
@@ -292,11 +297,11 @@ footer a:link, footer a:visited {
 	{
 		width:100%;
 		background-position:center;
-
+		
 	}
 	header
 	{
-		width: 420px;
+		width: 399px;
 		margin:0px auto;
 /*		position: relative;
 	float: right;*/	
